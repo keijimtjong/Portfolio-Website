@@ -24,3 +24,13 @@ npm install
 
 # Run the local development server
 npm run dev
+
+## 🚀 Deploy to Vercel
+
+```bash
+# Create a preview deployment
+npm run deploy
+
+# Create a production deployment
+npm run deploy:prod
+```

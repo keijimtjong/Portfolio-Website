@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-base-900 text-ink-100 font-body antialiased;
+  }
+
+  ::selection {
+    @apply bg-violet/30 text-ink-100;
+  }
+
+  :focus-visible {
+    outline: 2px solid theme('colors.cyan.DEFAULT');
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    @apply font-mono text-xs tracking-wide text-cyan/90;
+  }
+
+  .section-pad {
+    @apply px-6 sm:px-10 lg:px-20 xl:px-32;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
