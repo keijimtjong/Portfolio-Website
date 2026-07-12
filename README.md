@@ -1,6 +1,6 @@
 # 🌐 Personal Portfolio Website
 
-Welcome to the repository for my personal portfolio website! This site serves as a digital hub to showcase my software engineering projects, academic background in CS & Math at Binus University, and my passion for AI and programming.
+Welcome to the repository for my personal portfolio website! This site serves as a digital hub to showcase my software engineering projects, academic background in CS & Math, and my passion for AI and programming.
 
 ## 🛠️ Built With
 
@@ -14,7 +14,7 @@ To run this project locally, clone the repository and follow these steps:
 
 ```bash
 # Clone the repository
-git clone [https://github.com/keijimtjong/Portfolio-Website.git](https://github.com/keijimtjong/Portfolio-Website.git)
+git clone https://github.com/keijimtjong/Portfolio-Website.git
 
 # Navigate into the directory
 cd Portfolio-Website
