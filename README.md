@@ -27,7 +27,7 @@ npm run dev
 
 ## 🚀 Deploy to Vercel
 
-```bash
+
 # Create a preview deployment
 npm run deploy
 
