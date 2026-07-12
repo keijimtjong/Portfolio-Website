@@ -1,0 +1,15 @@
+# This is a comment (Git ignores this line)
+
+# Ignore a specific folder (always end with a slash)
+node_modules/
+dist/
+.expo/
+
+# Ignore a specific file
+.env
+secret_key.json
+
+# Ignore all files with a specific extension (using wildcards)
+*.log
+*.suo
+*.DS_Store
