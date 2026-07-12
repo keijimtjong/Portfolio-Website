@@ -20,7 +20,7 @@ const PROJECTS = [
     accent: "cyan",
   },
   {
-    icon: loader,
+    icon: Loader,
     title: "Soon",
     subtitle: "Coming Soon",
     desc: "New project available soon",
