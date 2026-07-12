@@ -1,2 +1,26 @@
-# Portfolio-Website
-> Personal portfolio website highlighting my projects, tech stack, and journey as a CS &amp; Math student at Binus. Built with Vite, React, Vue, JS, and Python. Showcasing my work in software engineering, prompt engineering, and my passion for AI and mathematics. Explore my digital hub for responsive web dev and computing.
+# 🌐 Personal Portfolio Website
+
+Welcome to the repository for my personal portfolio website! This site serves as a digital hub to showcase my software engineering projects, academic background in CS & Math at Binus University, and my passion for AI and programming.
+
+## 🛠️ Built With
+
+*   **Frameworks:** React
+*   **Build Tool:** Vite
+*   **Styling:** HTML5 & CSS3
+
+## ⚙️ Development & Setup
+
+To run this project locally, clone the repository and follow these steps:
+
+```bash
+# Clone the repository
+git clone [https://github.com/keijimtjong/Portfolio-Website.git](https://github.com/keijimtjong/Portfolio-Website.git)
+
+# Navigate into the directory
+cd Portfolio-Website
+
+# Install dependencies
+npm install
+
+# Run the local development server
+npm run dev
