@@ -1,4 +1,4 @@
-import { ArrowUpRight, Server, LayoutTemplate, loader } from "lucide-react";
+import { ArrowUpRight, Server, LayoutTemplate, Loader } from "lucide-react";
 
 const PROJECTS = [
   {
