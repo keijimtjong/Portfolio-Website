@@ -1,4 +1,4 @@
-import { ArrowUpRight, Server, LayoutTemplate } from "lucide-react";
+import { ArrowUpRight, Server, LayoutTemplate, loader } from "lucide-react";
 
 const PROJECTS = [
   {
@@ -16,6 +16,15 @@ const PROJECTS = [
     subtitle: "Personal Developer Hub",
     desc: "A responsive digital hub tracking my development footprint, built with modern frontend build tools.",
     tags: ["React", "Vite", "Tailwind CSS", "JavaScript"],
+    link: null,
+    accent: "cyan",
+  },
+  {
+    icon: loader,
+    title: "Soon",
+    subtitle: "Coming Soon",
+    desc: "New project available soon",
+    tags: ["Soon"],
     link: null,
     accent: "cyan",
   },
