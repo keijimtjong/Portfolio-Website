@@ -1,4 +1,4 @@
-import { ArrowUpRight, Server, LayoutTemplate, Loader } from "lucide-react";
+import { ArrowUpRight, Server, LayoutTemplate, Loader, Book } from "lucide-react";
 
 const PROJECTS = [
   {
@@ -19,6 +19,15 @@ const PROJECTS = [
     link: null,
     accent: "cyan",
   },
+  {
+    icon: Book,
+    title: "Vertex Quantara",
+    subtitle: "Trading and IT Free Course",
+    desc: "A free course on trading and IT, covering topics from market analysis to technical writing, designed for beginners and enthusiasts.",
+    tags: ["Trading", "IT", "Education", "Free Course"],
+    link: "https://discord.gg/FbHabphWXD",
+    accent: "cyan",
+  },  
   {
     icon: Loader,
     title: "Soon",
