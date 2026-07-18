@@ -1,4 +1,4 @@
-import { ArrowUpRight, Server, LayoutTemplate, Loader, Book } from "lucide-react";
+import { ArrowUpRight, Server, LayoutTemplate, Loader, Book, Store } from "lucide-react";
 
 const PROJECTS = [
   {
@@ -28,6 +28,24 @@ const PROJECTS = [
     link: "https://discord.gg/FbHabphWXD",
     accent: "cyan",
   },  
+  {
+    icon: Store,
+    title: "Kopi Nusantara Web Demo",
+    subtitle: "E-commerce Web Demo, Dedicated to Coffee Lovers",
+    desc: "A web demo for an e-commerce platform dedicated to coffee lovers, showcasing product listings, shopping cart functionality, and user-friendly design.",
+    tags: ["E-commerce", "Web Development", "Coffee", "Demo"],
+    link: "https://web-umkm-kopi-demo.vercel.app/",
+    accent: "cyan",
+  },
+  {
+    icon: Store,
+    title: "Rumah Makan Padang Web Demo",
+    subtitle: "E-commerce Web Demo, Dedicated to Padang Cuisine",
+    desc: "A web demo for an e-commerce platform dedicated to Padang cuisine, showcasing product listings, shopping cart functionality, and user-friendly design.",
+    tags: ["E-commerce", "Web Development", "Padang Cuisine", "Demo"],
+    link: "https://web-umkm-demo-2.vercel.app/",
+    accent: "cyan",
+  },        
   {
     icon: Loader,
     title: "Soon",
