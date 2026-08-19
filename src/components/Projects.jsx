@@ -76,7 +76,7 @@ export default function Projects() {
   return (
     <section id="projects" className="section-pad py-28 relative bg-base-950/40">
       <div className="max-w-5xl mx-auto">
-        <p className="eyebrow mb-3">// 02 — projects</p>
+        <p className="eyebrow mb-3">// 02, projects</p>
         <h2 className="font-display text-3xl sm:text-4xl font-semibold mb-6">
           Things I've built
         </h2>

@@ -4,7 +4,7 @@ const ROLES = [
   {
     icon: Code2,
     title: "Junior Programmer",
-    desc: "Writing clean, maintainable code across web stacks — from server logic to interface polish.",
+    desc: "Writing clean, maintainable code across web stacks, from server logic to interface polish.",
   },
   {
     icon: Cpu,
@@ -25,13 +25,13 @@ export default function About() {
   return (
     <section id="about" className="section-pad py-28 relative">
       <div className="max-w-5xl mx-auto">
-        <p className="eyebrow mb-3">// 01 — about-me</p>
+        <p className="eyebrow mb-3">// 01, about-me</p>
         <h2 className="font-display text-3xl sm:text-4xl font-semibold mb-6">
           Who I am
         </h2>
         <p className="text-ink-500 max-w-2xl leading-relaxed mb-16">
           I'm driven by a strong passion for technology, artificial intelligence, and machine
-          learning — with a particular fascination for optimization models and advanced
+          learning, with a particular fascination for optimization models and advanced
           scripting. I enjoy the moment where a mathematical idea turns into working software.
         </p>
 
