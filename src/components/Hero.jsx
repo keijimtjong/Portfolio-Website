@@ -11,8 +11,6 @@ export default function Hero() {
 
       <div className="section-pad relative w-full max-w-5xl mx-auto">
         <div className="font-mono text-sm text-emerald flex items-center gap-2 mb-6">
-          <span className="w-2 h-2 rounded-full bg-emerald animate-pulse" />
-          available for software engineering roles
         </div>
 
         <p className="font-mono text-sm text-ink-500 mb-3">

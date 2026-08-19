@@ -43,7 +43,7 @@ export default function Contact() {
   return (
     <section id="contact" className="section-pad py-28 relative">
       <div className="max-w-5xl mx-auto">
-        <p className="eyebrow mb-3">// 03 — contact</p>
+        <p className="eyebrow mb-3">// 03, contact</p>
         <h2 className="font-display text-3xl sm:text-4xl font-semibold mb-6">
           Let's build something
         </h2>
