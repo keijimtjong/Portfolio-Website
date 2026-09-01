@@ -1,4 +1,4 @@
-import { ArrowUpRight, Server, LayoutTemplate, Loader, Book, Store } from "lucide-react";
+import { ArrowUpRight, Server, LayoutTemplate, Loader, Book, Store, Globe } from "lucide-react";
 
 const PROJECTS = [
   {
@@ -45,7 +45,16 @@ const PROJECTS = [
     tags: ["E-commerce", "Web Development", "Padang Cuisine", "Demo"],
     link: "https://web-umkm-demo-2.vercel.app/",
     accent: "cyan",
-  },        
+  },    
+    {
+    icon: Globe,
+    title: "Plurcd Nexora",
+    subtitle: "Website Developer Landing Page",
+    desc: "A landing page of website developer, showcasing portfolio, services, and contact information for potential clients.",
+    tags: ["Website Development", "Landing Page", "Portfolio", "Services"],
+    link: "https://plurcdnexora.xyz/",
+    accent: "cyan",
+  },    
   {
     icon: Loader,
     title: "Soon",
